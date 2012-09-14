@@ -1,0 +1,24 @@
+{
+    "name": "evandotpro/edp-module-layouts",
+    "description": "EdpModuleLayouts is very simple ZF2 module for making module-specific layouts insanely easy.",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/EvanDotPro/EdpModuleLayouts",
+    "authors": [
+        {
+            "name": "Evan Coury",
+            "email": "me@evancoury.com",
+            "homepage": "http://blog.evan.pro/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
