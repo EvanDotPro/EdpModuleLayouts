@@ -1,6 +1,6 @@
 EdpModuleLayouts
 ================
-Version 0.0.1 Created by Evan Coury
+Version 1.0 Created by Evan Coury
 
 Introduction
 ------------
