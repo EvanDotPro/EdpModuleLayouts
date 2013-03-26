@@ -5,7 +5,7 @@ class Module
 {
     public function onBootstrap($e)
     {
-        $e->getApplication()->getEventManager()->getSharedManager()->attach(['Zend\Mvc\Controller\AbstractRestfulController', 'Zend\Mvc\Controller\AbstractActionController'],
+        $e->getApplication()->getEventManager()->getSharedManager()->attach(array('Zend\Mvc\Controller\AbstractRestfulController', 'Zend\Mvc\Controller\AbstractActionController'),
                             'dispatch', function($e) {
             $controller      = $e->getTarget();
             $controllerClass = get_class($controller);
